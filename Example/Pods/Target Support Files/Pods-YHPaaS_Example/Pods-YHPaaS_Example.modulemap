@@ -1,0 +1,6 @@
+framework module Pods_YHPaaS_Example {
+  umbrella header "Pods-YHPaaS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

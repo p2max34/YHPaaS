@@ -1,0 +1,6 @@
+framework module YHPaaS {
+  umbrella header "YHPaaS-umbrella.h"
+
+  export *
+  module * { export * }
+}

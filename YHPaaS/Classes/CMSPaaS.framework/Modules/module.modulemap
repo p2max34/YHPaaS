@@ -1,0 +1,11 @@
+framework module CMSPaaS {
+  umbrella header "CMSPaaS-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CMSPaaS.Swift {
+    header "CMSPaaS-Swift.h"
+    requires objc
+}
